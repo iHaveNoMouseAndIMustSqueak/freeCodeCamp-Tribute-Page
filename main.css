@@ -1,0 +1,82 @@
+html {
+    font-size: 10px; /* For easier calculations for rem sizes */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #222;
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.4;
+    text-align: center;
+}
+
+body * {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background: rgb(240, 240, 240);
+    margin: 20px 10px;
+    border-radius: 4px;
+    padding: 30px 15px;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+#img-div {
+    background: #fff;
+    padding: 1em 0;
+    margin: 2em 0;
+    border-radius: 4px;
+}
+
+img {
+    border-radius: 4px;
+    width: auto;
+    max-width: 100%;
+}
+
+figcaption {
+    padding: 1em;
+    text-align: left;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#tribute-info {
+    margin-top: 3em;
+}
+
+ol {
+    text-align: left;
+    max-width: 80ch;
+    margin: 2em auto;
+    list-style: disc;
+    padding: 1em;
+}
+
+li {
+    margin-bottom: 1em;
+}
+
+blockquote {
+    text-align: left;
+    max-width: 80ch;
+    margin: 3em auto 4em auto;
+}
